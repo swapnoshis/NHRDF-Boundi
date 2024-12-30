@@ -1,0 +1,59 @@
+.we_make_section .nav_part ul li:hover{
+    background-color:#ff3150;
+    border-radius: 6px;
+    color: yellow;
+}
+.we_make_section .img_control{
+    position: relative;
+}
+.we_make_section .img_control .text_part{
+    color: #ff3150;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.we_make_section .img_control .overlay{
+    transition: 0.5s ease;
+    opacity: 0;
+}
+.we_make_section .img_control:hover .overlay{
+    opacity: 1;
+}
+.somestuff_section span p{
+    line-height: 5px;
+    margin-top: 20px;
+}
+.somestuff_section .left_col{
+    line-height: 5px;
+}
+/* Meeat section CSS */
+.meet_team_section .header_part{
+    padding-top: 80px;
+}
+.meet_team_section .header_part p{
+    line-height: 5px;
+}
+.meet_team_section span p{
+    line-height: 8px;;
+}
+/* subscribr section section CSS */
+.subscribr_section input{
+    width: 500px;
+    color: aliceblue;
+    border-bottom:1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+::placeholder{
+    color:aliceblue
+}
+.subscribr_section label{
+    font-weight: 400;
+    font-size: large;
+}
+
+.meet_team_section .img_row{
+    align-content: center;
+}
